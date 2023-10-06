@@ -1,0 +1,19 @@
+.estilo {
+    background-color: rgba(57, 116, 96, 0.74);
+    text-align: center;
+    height: 100px;
+}
+
+.estiloI {
+    background-color: rgba(77, 156, 130, 0.74);
+    text-align:justify;
+    height: 100px;
+}
+.estiloII {
+    background-color: rgba(57, 116, 96, 0.74);
+    height: 250px;
+}
+.estiloIV {
+    background-color: rgba(77, 156, 130, 0.74);
+}  
+
