@@ -1,19 +1,82 @@
 .estilo {
-    background-color: rgba(57, 116, 96, 0.74);
+    background-color: #FFF2D8;
     text-align: center;
-    height: 100px;
+    height: 150px;
+    color: #113946;
+    font-family: monospace;
+    padding-top: 5%;
+}
+
+.estiloRedesSociais {
+    background-color: #113946;
+    text-align: center;
+    height: 50px;
+    color: #FFF2D8;
+    font-family: monospace;
+    align-items: center;
+
 }
 
 .estiloI {
-    background-color: rgba(77, 156, 130, 0.74);
-    text-align:justify;
+    background-color: #EAD7BB;
     height: 100px;
+    color: #113946;
+    font-family: monospace;
+    padding-top: 1%;
+    padding-left: 5%;
 }
-.estiloII {
-    background-color: rgba(57, 116, 96, 0.74);
-    height: 250px;
-}
-.estiloIV {
-    background-color: rgba(77, 156, 130, 0.74);
-}  
 
+.estiloII {
+    background-color: #BCA37F;
+    height: 250px;
+    color: #113946;
+}
+
+.estiloIV {
+    background-color: #EAD7BB;
+    height: 250px;
+    padding-left: 5%;
+}
+
+.rounded-box {
+    border-radius: 100px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.overlay-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 130px;
+    height: 130px;
+}
+
+.caixaPesquisa {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 15%;
+    height: 50px;
+}
+
+.caixaDigitacao {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+
+.botaoPesquisa {
+    padding: 10px 20px;
+    background-color: #113946;
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    font-size: 16px;
+    color: #FFF2D8;
+}
