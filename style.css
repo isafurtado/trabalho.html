@@ -38,7 +38,7 @@
     padding-left: 5%;
 }
 
-.rounded-box {
+.fundo-circular {
     border-radius: 100px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     background-color: rgb(255, 255, 255);
@@ -47,7 +47,7 @@
     position: relative;
 }
 
-.overlay-image {
+.estilo-imagem {
     position: absolute;
     top: 50%;
     left: 50%;
