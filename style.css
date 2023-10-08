@@ -29,15 +29,15 @@
 
 .estiloII {
     background-color: #BCA37F;
-    height: 100px;
+    height: 600px;
     color: #113946;
-    align-items: center; /* Centralizar verticalmente */
-    height: 80vh; /* Altura total da viewport para centralizar na tela inteira */
+    align-items: center;
+    /* Centralizar verticalmente */
     padding-left: 5%;
     font-weight: bold;
     font-family: monospace;
     text-align: justify;
-   
+
 }
 
 .estiloIV {
@@ -114,23 +114,75 @@
     height: 100vh;
     /* Altura total da viewport para centralizar na tela inteira */
 }
-.youtube1{
-    background-color: #EAD7BB;
+
+.youtube1 {
+    background-color: #FFF2D8;
     height: 350px;
     padding-left: 5%;
     height: 500px;
     color: #113946;
     font-family: monospace;
-    padding-top: 5%;
+    padding-top: 2%;
+    text-align: justify;
 }
-.estilo5{
+
+.estilo5 {
     background-color: #BCA37F;
     height: 150px;
     padding-left: 5%;
-    height: 300px; /* Centralizar verticalmente */
-    height: 50vh; /* Altura total da viewport para centralizar na tela inteira */
+    height: 300px;
+    /* Centralizar verticalmente */
+    height: 50vh;
+    /* Altura total da viewport para centralizar na tela inteira */
     padding-left: 5%;
     font-weight: bold;
     font-family: monospace;
     text-align: justify;
+}
+
+.estilo-news {
+    background-color: #EAD7BB;
+    height: 200px;
+    color: #113946;
+    align-items: center;
+    /* Centralizar verticalmente */
+    height: 80vh;
+    /* Altura total da viewport para centralizar na tela inteira */
+    padding-left: 5%;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: justify;
+}
+
+.fundo-news {
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+    height: 450px;
+    position: relative;
+    align-items: center;
+}
+
+.estilo-imagem-news {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 400px;
+    height: 400px;
+}
+
+.estilo-inscricao {
+    background-color: #BCA37F;
+    height: 400px;
+    color: #113946;
+    align-items: center;
+    /* Centralizar verticalmente */
+    padding-left: 5%;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: justify;
+
 }
